@@ -1,0 +1,49 @@
+name: kaleidoscope
+description: >-
+  AI usage analytics for Flutter. Track tokens, cost, latency and errors of
+  every AI call from any model, by module, page and section, with encrypted
+  storage and a dashboard.
+version: 1.0.0
+homepage: https://sanket-manohar.github.io/kaleidoscope
+repository: https://github.com/sanket-manohar/kaleidoscope
+issue_tracker: https://github.com/sanket-manohar/kaleidoscope/issues
+documentation: https://sanket-manohar.github.io/kaleidoscope
+topics: [ai, llm, analytics, monitoring, tokens]
+
+screenshots:
+  - description: The kaleidoscope logo.
+    path: doc/brand/png/logo-mark-512.png
+  - description: Overview dashboard with cost, tokens, latency, budget and forecast.
+    path: doc/promo/01_overview.png
+  - description: Breakdown of AI usage by module, page and section.
+    path: doc/promo/02_breakdown_tree.png
+  - description: Trends with forecasts, latency percentiles and anomalies.
+    path: doc/promo/03_trends.png
+  - description: Full details of a single AI call.
+    path: doc/promo/04_call_detail.png
+  - description: Floating debug overlay shown in debug builds.
+    path: doc/promo/05_overlay_expanded.png
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+  flutter: ">=3.35.0"
+
+platforms:
+  android:
+  ios:
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.9.0
+  fl_chart: ^1.1.0
+  flutter_secure_storage: ^11.0.0
+  http: ^1.4.0
+  path: ^1.9.0
+  sqflite_sqlcipher: ^3.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  sqflite_common_ffi: ^2.3.6

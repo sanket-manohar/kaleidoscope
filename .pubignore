@@ -1,0 +1,13 @@
+.github/
+website/
+tool/
+RELEASE.md
+doc/screenshots/
+doc/brand/svg/
+doc/brand/png/*@2x.png
+doc/brand/png/app-icon-*.png
+doc/brand/png/favicon-*.png
+build/
+.dart_tool/
+pubspec.lock
+doc/kaleidoscope-guide.pdf
